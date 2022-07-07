@@ -35,5 +35,8 @@ steps:
 images:
 - 'gcr.io/civic-gate-353504/github.com/bimarenth/wp'
 
+logsBucket: 'gs://logtest-bima'
 options:
-  logging: CLOUD_LOGGING_ONLY
+  logging: GCS_ONLY
+#options:
+#  logging: CLOUD_LOGGING_ONLY
