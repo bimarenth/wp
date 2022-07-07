@@ -3,17 +3,17 @@
   "env": {
       "DB_HOST": {
           "description": "(external exposed) IP address of MySQL Database. If you are using Cloud SQL set this to 127.0.0.1",
-          "value": "localhost",
+          "value": "10.197.224.3",
           "required": true
       },
       "DB_USER": {
           "description": "MySQL Database username",
-          "value": "root",
+          "value": "postgres",
           "required": true
       },
       "DB_PASSWORD": {
           "description": "MySQL Database password",
-          "value": "password",
+          "value": "inipassword",
           "required": true
       },
       "DB_NAME": {
@@ -23,7 +23,8 @@
       },
       "CLOUDSQL_INSTANCE": {
           "description": "Cloud SQL Instance Name  in the format <project.id>:<region>:<instance-name>",
-          "required": false
+          "value": "civic-gate-353504:asia-southeast2:protosql",
+          "required": true
       }
   }
 }
