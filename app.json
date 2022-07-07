@@ -3,7 +3,7 @@
   "env": {
       "DB_HOST": {
           "description": "(external exposed) IP address of MySQL Database. If you are using Cloud SQL set this to 127.0.0.1",
-          "value": "10.197.224.3",
+          "value": "127.0.0.1",
           "required": true
       },
       "DB_USER": {
